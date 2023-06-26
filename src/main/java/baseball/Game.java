@@ -90,7 +90,7 @@ public class Game {
 
     }
 
-    public String check(int question[], int inputNumbers[]){
+    public String check(int[] question, int[] inputNumbers){
 
         int strike = 0;
         int ball = 0;
