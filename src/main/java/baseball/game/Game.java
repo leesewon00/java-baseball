@@ -77,7 +77,12 @@ public class Game {
                 }
                 arr[i] = temp;
             }
-            return arr;
+
+            boolean duplicate = duplicateCheck(arr);
+            if(duplicate){
+                return arr;
+            }
+            throw new IllegalArgumentException();
         }
         throw new IllegalArgumentException();
     }
