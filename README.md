@@ -1,3 +1,5 @@
+### branch - leesewon00  
+
 #Check
 중복체크 메소드
 스트라이크, 볼 체크 메소드
